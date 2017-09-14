@@ -1,7 +1,8 @@
 # Replace-Utility
-/*Authors: Islam Abdeen
-/*Email: engehassan@gmail.com
-/*Last modification: September 2017
+
+Authors: Islam Abdeen
+Email: engehassan@gmail.com
+Last modification: September 2017
 
 About utility:
 ---------------
