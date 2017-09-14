@@ -43,5 +43,12 @@
 /* Preprocessor */
 #define NO_OF_CHARS 256
 
+/* Functions Prototype */
+void PrintUsageMsg();
+int PrintInvalidOptionMsg();
+void Create_Bad_Match_Table(char *pPattern, int iSize, char iBadMatchArr[NO_OF_CHARS]);
+int SearchPattern_BoyerMooreAlgorithm(char *pPatternStr, unsigned long ulPatternStrLen, char *buffer, char BadMatchArr[]);
+char * replace(char *pPatternStr, unsigned long ulPatternStrLen, char *pCompensatedStr, unsigned long ulCompensatedStrLen, char *buffer, unsigned long ulBufferSize, char BadMatchArr[]);
+
 #endif // REPLACE_H 
 
